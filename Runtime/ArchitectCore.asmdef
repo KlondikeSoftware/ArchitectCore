@@ -1,0 +1,14 @@
+{
+    "name": "ArchitectCore",
+    "rootNamespace": "com.ksgames.core.architect",
+    "references": ["GUID:83b45a62485d4ee9affa3e5e7deab8b9"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
