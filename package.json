@@ -1,8 +1,8 @@
 {
   "name": "com.ksgames.core.architect",
   "version": "1.0.6",
-  "displayName": "Architect",
-  "description": "Core Architect",
+  "displayName": "Architect Core",
+  "description": "Architect Core",
   "unity": "6000.42",
   "author": {
     "name": "KSGames.Core",
