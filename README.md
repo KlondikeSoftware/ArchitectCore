@@ -10,7 +10,6 @@ Core Architect component
 Add via Unity Package Component.
 + Install package from git url -> Insert link
 ```json
-git@github.com:KlondikeSoftware/AnalyticService.git
+git@github.com:KlondikeSoftware/ArchitectCore.git
 ```
-
 ## Dependencies
