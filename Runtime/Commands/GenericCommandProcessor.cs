@@ -4,7 +4,7 @@ using com.ksgames.services.persistenceservice;
 
 namespace com.ksgames.core.architect
 {
-    public class GenericCommandProcessor<T>: ICommandProcessor where T : IGameState
+    public class GenericCommandProcessor<T>: ICommandProcessor where T : IGameData
     {
 
         private readonly Dictionary<Type, object> _handlersMap = new Dictionary<Type, object>();

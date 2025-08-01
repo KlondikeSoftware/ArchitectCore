@@ -7,7 +7,7 @@ namespace com.ksgames.core.architect
     {
         void Reload();
     }
-    public interface iDataProvider<T> : iDataProvider where T : IGameState
+    public interface iDataProvider<T> : iDataProvider where T : IGameData
     {
         public T Data { get; }
         string GAME_STATE_KEY { get; set; }
