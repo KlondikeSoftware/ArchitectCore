@@ -8,10 +8,10 @@ namespace com.ksgames.core.architect
     {
 
         private readonly Dictionary<Type, object> _handlersMap = new Dictionary<Type, object>();
-        private iDataProvider<T> _saveProvider;
+        private IPersistenceProvider<T> _saveProvider;
 
 
-        public GenericCommandProcessor(iDataProvider<T> saveProvider)
+        public GenericCommandProcessor(IPersistenceProvider<T> saveProvider)
         {
             _saveProvider = saveProvider;
         }
