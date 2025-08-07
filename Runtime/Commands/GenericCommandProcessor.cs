@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using com.ksgames.services.MVVMCore;
 using com.ksgames.services.persistenceservice;
 
 namespace com.ksgames.core.architect
