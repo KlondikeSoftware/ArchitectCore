@@ -1,7 +1,10 @@
 {
     "name": "ArchitectCore",
     "rootNamespace": "com.ksgames.core.architect",
-    "references": ["GUID:83b45a62485d4ee9affa3e5e7deab8b9","GUID:978ddbefe3ad43e28decdb64286326f3"],
+    "references": [
+        "PersistenceService",
+        "MVVMCore"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
