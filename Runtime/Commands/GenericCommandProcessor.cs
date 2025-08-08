@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-using com.ksgames.services.MVVMCore;
-using com.ksgames.services.persistenceservice;
+using com.ksgames.core.abstractions.persistence;
 
 namespace com.ksgames.core.architect
 {

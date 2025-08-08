@@ -2,8 +2,7 @@
     "name": "ArchitectCore",
     "rootNamespace": "com.ksgames.core.architect",
     "references": [
-        "PersistenceService",
-        "MVVMCore"
+        "Lukomor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
