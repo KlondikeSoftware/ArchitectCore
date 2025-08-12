@@ -1,6 +1,6 @@
 namespace com.ksgames.core.architect.FSM
 {
-    public enum RpgGameStatesEnum
+    public enum IdlerStateEnum
     {
         MONSTERTURN,
         PLAYERTURN,

@@ -5,10 +5,7 @@ namespace com.ksgames.core.architect.FSM
 {
     public abstract class FStateMachine
     {
-        public FStateMachine()
-        {
-            
-        }
+        public FStateMachine() { }
 
         protected FSMState CurrentState { set; get; }
 
