@@ -2,6 +2,7 @@ namespace com.ksgames.core.architect.FSM
 {
     public enum IdlerStateEnum
     {
+        //Idle, Running, Paused, Completed, Failed
         MONSTERTURN,
         PLAYERTURN,
         IDLE,

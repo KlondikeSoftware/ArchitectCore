@@ -5,5 +5,7 @@ namespace com.ksgames.core.abstractions.landscape
         PLAY = 0,
         STOP = 1,
         CAGE = 2,
+        HIDE = 3,
+        SHOW = 4
     }
 }

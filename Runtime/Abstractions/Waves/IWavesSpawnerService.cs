@@ -7,13 +7,9 @@ namespace  com.ksgames.core.abstractions.waves
     {
         
         public IWaveService Wave { get; }
-        public ReactiveProperty<bool> GateOpen { get; set; }
-
-        
         
         bool IsDefeat();
         void HideProgress();
-
         
         private void SpawnNextWave() { }
         public ReactiveProperty<WaveSpawnerStatesEnum> SpawnNewWave();
