@@ -6,5 +6,6 @@ namespace com.ksgames.core.abstractions.landscape
         NightWood = 3,
         Forest = 1,
         Volcano = 2,
+        DressToQuest = 4,
     }
 }

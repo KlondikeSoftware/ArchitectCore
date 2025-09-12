@@ -7,11 +7,12 @@ namespace com.ksgames.core.abstractions.waves.ViewModels
 {
     public interface IWaveItemViewModel: IViewModel
     {
+        IWaveItemService _service { get; }
         string GetID();
-        int Position { get; set; }
-        ReactiveProperty<EntityStatesEnum> State { get; set; }
+        ReactiveProperty<EntityStatesEnum> State { get;}
+        ReactiveProperty<IWaveItemPositionData> IdlePosition { get; }
         void ViewCallBack(string callBackCode);
         void SetState(EntityStatesEnum idle);
-        View GetPrefab();
+        GameObject GetPrefab();
     }
 }

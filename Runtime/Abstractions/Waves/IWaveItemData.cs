@@ -13,8 +13,8 @@ namespace com.ksgames.core.abstractions.waves
         public EntityStatesEnum State { get; }
         public string Id { get; }
         public int Speed { get; }
-        public PositionInWaveEnum Position { get; }
+        public IWaveItemPositionData IdlePosition { get; }
         public IMonsterParams Params { get; }
-        List<IUnitPropertyData> Properties { get;  }
+        List<IUnitPropertyData> Properties { get;}
     }
 }

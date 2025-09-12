@@ -5,6 +5,7 @@ using com.ksgames.core.abstractions.unitproperty;
 using com.ksgames.core.architect;
 using Lukomor.MVVM;
 using Lukomor.Reactive;
+using UnityEngine;
 
 namespace com.ksgames.core.abstractions.waves
 {
@@ -12,16 +13,11 @@ namespace com.ksgames.core.abstractions.waves
     {
         public IWaveItem EntityProxy { get; }
         public ReactiveProperty<EntityStatesEnum> State { get; }
-        public PositionInWaveEnum PositionInWave { get; }
+        public ReactiveProperty<IWaveItemPositionData> IdlePosition { get; }
+        
         public IPropertiesService Properties { get; set; }
-
         public ICommandProcessor _cmd { get; }
         
-        public PositionInWaveEnum GetPositionInWave()
-        {
-            return PositionInWave;
-        }
-
         public void SetState(EntityStatesEnum newStateEnum)
         { }
 
@@ -52,6 +48,6 @@ namespace com.ksgames.core.abstractions.waves
                 and not EntityStatesEnum.DISAPPEAR and not EntityStatesEnum.FINISHEDATTACK;
         }
 
-        View GetPrefab();
+        GameObject GetPrefab();
     }
 }
