@@ -13,6 +13,8 @@ namespace com.ksgames.core.abstractions.waves.ViewModels
         ReactiveProperty<IWaveItemPositionData> IdlePosition { get; }
         void ViewCallBack(string callBackCode);
         void SetState(EntityStatesEnum idle);
-        GameObject GetPrefab();
+        GameObject GetBodyPrefab();
+        GameObject GetContainerPrefab();
+        void SetSortingLayer(float sortingLayer);
     }
 }

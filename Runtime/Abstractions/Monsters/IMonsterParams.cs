@@ -29,8 +29,8 @@ namespace com.ksgames.core.architect.monsters
         public bool IsChest => Type == MonsterTypeEnum.Chest;
         public bool IsMeleeMinion => Type == MonsterTypeEnum.Melee && Level != MonsterLevelEnum.Boss;
         public bool IsRangedMinion => Type == MonsterTypeEnum.Ranged && Level != MonsterLevelEnum.Boss;
-        public bool MeleeBoss => Type == MonsterTypeEnum.Melee && Level == MonsterLevelEnum.Boss;
-        public bool RangedBoss => Type == MonsterTypeEnum.Ranged && Level == MonsterLevelEnum.Boss;
+        public bool IsMeleeBoss => Type == MonsterTypeEnum.Melee && Level == MonsterLevelEnum.Boss;
+        public bool IsRangedBoss => Type == MonsterTypeEnum.Ranged && Level == MonsterLevelEnum.Boss;
         public bool IsBoss => Level == MonsterLevelEnum.Boss;
         
     }

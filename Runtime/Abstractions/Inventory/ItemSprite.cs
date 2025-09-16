@@ -46,7 +46,7 @@ namespace com.ksgames.core.abstractions.inventory
 			Sprite = sprite;
 			Sprites = sprites.OrderBy(x => x.name).ToList();
 			Multiple = true;
-			Hash = ((object)((Texture)sprite.texture).imageContentsHash /*cast due to .constrained prefix*/).ToString();
+			Hash = Path.ToHashSet().ToString();
 		}
 
 		public Sprite GetSprite(string name)

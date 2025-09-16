@@ -6,6 +6,7 @@ namespace com.ksgames.core.architect.monsters
         Ready = 1,
         Walk = 2,
         Run = 3,
+        Attack = 4,
         Death = 9,
         Custom = 4,
     }
