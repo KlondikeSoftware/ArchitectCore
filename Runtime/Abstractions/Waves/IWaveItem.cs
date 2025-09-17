@@ -7,10 +7,11 @@ namespace com.ksgames.core.abstractions.waves
 {
     public interface IWaveItem
     {
+        public string Id { get; }
         public IWaveItemData Origin { get; }
         public ReactiveCollection<IUnitProperty> Properties { get; }
         public ReactiveProperty<EntityStatesEnum> State { get; }
-        string Id { get; }
+        string MonsterId { get; }
         public ReactiveProperty<int> Speed { get;  }
         public ReactiveCollection<IBuff> Perks { get; }
         public ReactiveProperty<IWaveItemPositionData> IdlePosition { get; }
